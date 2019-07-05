@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+img{
+    width: 147px;
+    height: 44px;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 5px;
+}
+.barra::before,::after{
+    content: "";
+    border-left: 1px solid #ffffff;
+
+}
